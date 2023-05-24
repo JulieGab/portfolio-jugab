@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0; /* sempre importante zerar os valores de margin e padding antes de todo projeto */
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* Altura do viewport, sempre colocar esse padrão no início do projeto */
+    box-sizing: border-box; /* Outra propriedade importante para padronizar no início do projeto */
+    background-color: #000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #BC4FFF;
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex; /* Atributo padrão para podermos utilizar a propriedade flexbox */
+    align-items: center;
+    justify-content: space-between; /* Atributo flexbox para dar espaço entre elementos */
+}
+
+.apresentacao__conteudo{
+    width: 603px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif; /* esse é o valor que o google fonts
+    informa para colocarmos após a importação da fonte krona one realizada lá em cima*/
+}
+
+.presentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;; /* Importante verificarmos o peso (weight) da fonte no figma, 
+    antes de importarmos ela do google fonts*/
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
