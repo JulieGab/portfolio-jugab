@@ -59,6 +59,9 @@ body {
 .apresentacao__links__link{
     text-decoration: none;
     /* background-color: #BC4FFF; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #BC4FFF; /* O primeiro diz respeito a expessura da borda. */
     border-radius: 8px;
     width: 378px;
@@ -69,4 +72,12 @@ body {
     padding: 21.5px 0;
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+.image__home:hover{
+    
 }
