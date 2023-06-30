@@ -69,6 +69,18 @@ body {
     antes de importarmos ela do google fonts*/
 }
 
+.apresentacao__link{
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+    border-width: ;
+    padding: 1%;
+    
+}
+
 .apresentacao__links{
     display: flex;
     flex-direction: column;
@@ -102,6 +114,20 @@ body {
 
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
+}
+
+
+.image__curriculo{
+    align-self: flex-start;
+    position: fixed;
+    top: px; /* Posição vertical a partir do topo */
+    right: 15%; /* Posição horizontal a partir da esquerda */
+    z-index: 9999; 
+}
+
+.image__curriculo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .image__home:hover{
